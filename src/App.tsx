@@ -1,5 +1,13 @@
+import { Wizard, WizardContainer } from "./components"
+
 function App() {
-  return <></>
+  return (
+    <WizardContainer>
+      <div className="shadow-lg rounded-lg p-4 bg-white">
+        <Wizard />
+      </div>
+    </WizardContainer>
+  )
 }
 
 export default App
