@@ -1,12 +1,16 @@
 import { Wizard, WizardContainer } from "./components"
+import { Navbar } from "./components/navbar"
 
 function App() {
   return (
-    <WizardContainer>
-      <div className="shadow-lg rounded-lg p-4 bg-white">
-        <Wizard />
-      </div>
-    </WizardContainer>
+    <>
+      <Navbar />
+      <WizardContainer>
+        <div className="shadow-lg rounded-lg p-4 bg-white">
+          <Wizard />
+        </div>
+      </WizardContainer>
+    </>
   )
 }
 
